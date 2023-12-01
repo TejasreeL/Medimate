@@ -1,1 +1,1 @@
-This is Vasavi Hackathon Medimate
+This is Vasavi Hackathon Medimate.
