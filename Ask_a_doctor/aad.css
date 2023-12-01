@@ -1,0 +1,67 @@
+
+
+.appt{
+  background: #e0e0e0;
+  height: 250px;
+  width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  padding: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+
+.ap {
+  font-size: 2rem;
+}
+
+.available {
+  background-color: #0096fe;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.middle {
+  font-size: 30px;
+  padding-left: 25px;
+}
+
+.spec {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.eachspec {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 30px;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  font-size: 16px;
+}
+
+ .eachsym {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 30px;
+  border-radius: 10px;
+  height: 175px;
+  width: 175px;
+  font-size: 16px;
+} 
