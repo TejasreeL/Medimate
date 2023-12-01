@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Medimate</title>
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="./home.css">
 </head>
 <body>
   <div class="navbar">
     <div class="logo">
-    <a href="#"><img src="logo.png"></a>
+    <a href="#"><img src="../Images/logo.png"></a>
     <h1>Medimate</h1>
   
   </div>
-
   <nav>
     <a href="#home">Home</a>
     <a href="#ask">Ask a Doctor</a>
     <a href="#pharmacy">Pharmacy</a>
     <a href="#game">Game</a>
-    <a href="#profile">Small Profile</a>
+    <a href="#profile"><img src="../Images/profile.png" ></a>
   </nav>
 </div>
   <section id="home">
@@ -28,10 +27,21 @@
   </section>
 
   <section id="ask">
-    <h2>Ask a Doctor</h2>
-    <textarea placeholder="Write your prompt or question here..."></textarea>
+    <h3>" Embark on a healthcare odyssey where the pulse of innovation
+      harmonizes with your well-being - welcome to the extraordinary
+      realm of MediMate!
+      At MediMate, we've transformed healthcare into an experience.
+      Imagine quick and accurate diagnoses, powered by the magic of
+      machine learning. This isn't just about data - it's about your well-
+      being. "</h3>
+    <div class="buttons">
+    <textarea placeholder="Describe your symptoms here..."></textarea>
+    
+    <button onclick="" class="addimg">Add Image</button>
+  </div>
     <button onclick="submitQuestion()">Submit</button>
-    <p>Not sure what to ask? Check our suggestions!</p>
+  
+    <p>Not sure what to ask? <a href="">Check our suggestions!</a></p>
   </section>
 
   <script src="home.js"></script>
