@@ -15,14 +15,7 @@ a {
     color: aliceblue;
   }
   
-li{
-    list-style: none;
-    color: aliceblue;
-    font-size: 20px;
-}
-li:hover{
-    color:aliceblue;
-}
+
 a:hover{
     color:aliceblue; 
 }
