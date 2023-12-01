@@ -1,4 +1,125 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Nova+Square&family=Playfair+Display&display=swap');
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+  }
+.navbar{
+  padding: 5px;
+display: flex;
+justify-content: space-between;
+background-color: rgb(0, 94, 255);
+  }
+.logo{
+display: flex;
+margin-left: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 8px ;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  nav img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+
+  textarea {
+    background-color: #f4f4f4;
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .navbar h1{
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    color: whitesmoke;
+  }
+  
+  button {
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  section{
+    text-align: center;
+    margin-top: 50px;
+  }
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .addimg{
+    border-radius: 10px;
+    background-color: rgb(0, 94, 255);
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav a:hover{
+    color: rgb(155, 224, 249);
+    font-weight:600;
+  }
+  p a{
+    text-decoration: none;
+    color:rgb(0, 0, 255);
+  }
+  h3{
+    text-align: left;
+    margin: auto;
+    width: 1200px;
+    margin-bottom: 40px;
+  }
+  p{
+    margin-top: 20px;
+  }
+  /* Add more styling as needed */
+  
 
 .appt{
   background: #e0e0e0;
