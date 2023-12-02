@@ -1,0 +1,38 @@
+h2{
+    margin: auto;
+    text-align: center;
+    padding: 30px 10px;
+  }
+  .right{
+    background-color: #0044ff;
+  }
+  .one{
+    display: block;
+    margin: auto; 
+  }
+  .card{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  img{
+    width: 50px;
+    padding: 2px;
+  }
+  .row{
+    display: flex;
+    justify-content:center;
+    margin: 25px;
+    margin-bottom: 80px;
+  }
+  .two{
+    border-radius: 15px;
+  }
+  .three{
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .left{
+    display: block;
+    margin: auto;
+  }
